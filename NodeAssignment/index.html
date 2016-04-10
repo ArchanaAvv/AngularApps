@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script language="Javascript">
+
+    var size = prompt("Enter the size of the pyramid");
+
+    for (var i = size; i >= 0; i--)
+    {
+        for (var j = 0; j < size; j++)
+        {
+            if (i > j)
+                document.write("  ");
+            else
+                document.write(" | ");
+        }
+        document.write("</br>");
+    }
+
+</script>
+</body>
+</html>
